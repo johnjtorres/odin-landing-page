@@ -55,6 +55,15 @@ nav {
   color: #f9faf8;
 }
 
+.hero {
+  display: flex;
+}
+
+.hero-signup {
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   text-decoration: none;
 }

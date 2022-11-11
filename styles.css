@@ -92,12 +92,13 @@ nav {
 
 .hero-image {
   display: flex;
-  background-color: grey;
   flex-basis: 50%;
-  margin-top: 100px;
-  margin-bottom: 150px;
   justify-content: center;
   align-items: center;
+  color: #e5e7eb;
+  background-color: grey;
+  margin-top: 100px;
+  margin-bottom: 150px;
 }
 
 a {

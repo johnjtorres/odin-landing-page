@@ -13,7 +13,8 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  height: 250vh;
+  justify-content: space-between;
+  height: 200vh;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -106,7 +107,6 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 64px;
-  padding: 64px 0 96px;
 }
 
 .section-title {
@@ -167,7 +167,6 @@ article {
   justify-content: space-around;
   align-items: center;
   background-color: #3882f6;
-  margin: 100px 0;
   padding: 64px 0;
   border-radius: 10px;
 }

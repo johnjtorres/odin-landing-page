@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap");
 
 html {
   box-sizing: border-box;
@@ -13,7 +13,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 250vh;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -104,6 +104,8 @@ nav {
 .info-panel {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 33%;
   align-items: center;
   gap: 36px;
   margin: 36px 0;
@@ -117,6 +119,8 @@ nav {
 
 .articles {
   display: flex;
+  justify-content: center;
+  gap: 64px;
 }
 
 article {
@@ -124,6 +128,7 @@ article {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  max-width: 150px;
 }
 
 .article-image {
@@ -131,6 +136,32 @@ article {
   border-radius: 16px;
   width: 150px;
   height: 150px;
+}
+
+.quote-panel {
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 100px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.cta-panel {
+  flex-basis: 33%;
 }
 
 a {
